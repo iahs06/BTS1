@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Comentarios - BTS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografias.html">Biografías</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="https://btsblog.com">Blog</a></li>
+                <li><a href="comentarios.html">Contacto y Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contacto y Comentarios</h1>
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto con nosotros, por favor completa el siguiente formulario:</p>
+            <form action="submit-contact-form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Comentarios</h2>
+            <p>Opiniones y comentarios de los fans:</p>
+            <div class="comments-section">
+                <div class="comment">
+                    <h3>Nombre del Fan</h3>
+                    <p>Comentario del fan sobre BTS y su música.</p>
+                </div>
+                <div class="comment">
+                    <h3>Nombre del Fan</h3>
+                    <p>Comentario del fan sobre BTS y su música.</p>
+                </div>
+                <!-- Agrega más comentarios aquí -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 BTS Fansite</p>
+    </footer>
+</body>
+</html>
